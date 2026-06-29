@@ -1,6 +1,6 @@
 # app.py
 import streamlit as st, requests
-N8N = "https://elaine0303.app.n8n.cloud/webhook-test/retention"
+N8N = "https://elaine0303.app.n8n.cloud/webhook/retention"
 st.title("Smart Customer Retention Assistant")
 name = st.text_input("Customer name", "Jane Tan")
 tenure = st.slider("Tenure (months)", 1, 72, 6)
